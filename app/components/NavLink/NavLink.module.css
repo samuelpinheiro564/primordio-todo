@@ -1,0 +1,22 @@
+
+
+.bkg {
+    background-color: #0e0e0e;
+    color: #d6d6d6;
+    text-decoration: none !important;
+    margin-left: 4%;
+    width: 15rem;
+}
+.bkg:hover{
+    background-color: #d6d6d6;
+    color: #0e0e0e;
+    text-decoration: none !important;
+    border-radius: 6px;
+    width: 15rem;
+}
+.cao{
+    margin-top: 5%;
+    width: 89%;
+    font-size: 22px;
+    text-align: center;
+}

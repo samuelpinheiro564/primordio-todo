@@ -1,0 +1,47 @@
+/*estilzar a scroll bar*/
+
+.sideBar{
+    width: 20%;
+max-height: 50rem;
+    background-color: #0f0f0f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-top: 20px;
+    border-right: 1px solid #e6e6e6;
+    transition: 0.5s;
+    color: #d6d6d6;
+    text-decoration: none !important;
+    overflow-y: auto !important;
+    overflow-x: hidden;
+
+      
+}
+
+.sideBar::-webkit-scrollbar {
+    width: 12px; 
+   border-radius: 6px;
+  }
+  
+ 
+  .sideBar::-webkit-scrollbar-thumb {
+    background-color: #0077b6; 
+    border-radius: 6px;
+    height: 30px;
+  }
+  
+
+.link{
+    text-decoration: none !important;
+}
+.darling{
+    width: 15rem;
+}
+.main{
+    margin-left: 40%;
+}
+.image{
+    margin-left: 12%;
+    margin-bottom: 10%;
+}
