@@ -1,0 +1,19 @@
+.maindiv{
+    background-color: green;
+    width: 30%;
+    position: fixed;
+    bottom: 0;
+
+    transform: translate(-50%, -50%);
+    left: 50%;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: 60px;
+}
+.erro{
+    background-color: rgb(206, 41, 41) !important;
+}
+.success{
+    background-color: rgb(32, 156, 32) !important;
+}
